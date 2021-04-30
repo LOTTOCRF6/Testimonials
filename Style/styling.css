@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://i.picsum.photos/id/1010/5184/3456.jpg?hmac=7SE0MNAloXpJXDxio2nvoshUx9roGIJ_5pZej6qdxXs);
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.content {
+  background: rgba(217, 225, 226, 0.884);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  border-radius: 20px;
+}
+img {
+  border-radius: 50%;
+}
